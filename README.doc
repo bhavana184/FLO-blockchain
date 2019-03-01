@@ -18,7 +18,7 @@ flo-qt –: qt desktop variant of the flo wallet
 flod – flo demon i.e headlist version of the flo wallet
 it means you will not see its ui but u can use its functionalities
 for these functionality to access you will need flo-cli i.e flo command line interface to access all the commands running on flod
-other two files rae not generally used
+other two files are not generally used
 
 for these wallet to start open terminal
 go to the folder having flo extracted
@@ -26,7 +26,7 @@ go to the folder having flo extracted
 In my case it is inside ranchimall folder inside Document folder
 cd Document
 cd ranchimall
-cd flo and enter tab uget the entire folder name then enter
+cd flo and enter tab u get the entire folder name then enter
 
 now for opening files
 ./flo-qt command
