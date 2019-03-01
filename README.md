@@ -52,23 +52,20 @@ to go to previous directory  use cd .. command
 to display all files in a directory use command ls command
 cd documents
 
-
-bhavana@bhavana-Lenovo-G50-70:~$ cd documents
-bash: cd: documents: No such file or directory
-bhavana@bhavana-Lenovo-G50-70:~$ cd Documents
-bhavana@bhavana-Lenovo-G50-70:~/Documents$ ls
-ranchimall
-bhavana@bhavana-Lenovo-G50-70:~/Documents$ cd ranchimall
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall$ ls
-'chat message ranchi mall for instructions.odt'  'TASKS LIST RANCHI MALL.odt'
+cd Documents
+ls
+--> displays ranchimall
+cd ranchimall
+ ls
+--> dispalys 'chat message ranchi mall for instructions.odt'  'TASKS LIST RANCHI MALL.odt'
  flo-0.15.1
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall$ cd flo-0.15.1/
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall/flo-0.15.1$ ls
-bin  share
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall/flo-0.15.1$ cd bin
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall/flo-0.15.1/bin$ ls
-flo-cli  flod  flo-qt  flo-tx  test_flo
-bhavana@bhavana-Lenovo-G50-70:~/Documents/ranchimall/flo-0.15.1/bin$ ./flo-qt
+ cd flo-0.15.1/
+ ls
+--> displays bin  share
+cd bin
+ ls
+--> displays flo-cli  flod  flo-qt  flo-tx  test_flo
+ ./flo-qt
 
 
 
